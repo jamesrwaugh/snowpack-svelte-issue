@@ -1,3 +1,21 @@
+# To Reproduce Issue
+
+- Run app
+- Click the button
+- Note in the Console
+
+```
+sveltestrap.js:196 Uncaught (in promise) TypeError: Cannot read property 'c' of undefined
+    at gt (sveltestrap.js:196)
+    at Object.o (sveltestrap.js:675)
+    at transition_out (internal.js:154)
+    at Object.o (App.js:63)
+    at transition_out (internal.js:154)
+    at Object.p (App.js:197)
+    at update (internal.js:116)
+    at flush (internal.js:84)
+```
+
 # New Project
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
